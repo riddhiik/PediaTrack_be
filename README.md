@@ -1,6 +1,20 @@
-## Steps to run the Project
+# Start the application
 
+- Make you have python 3.12+ installed
+
+```bash
+# create virtual envirionment
 python -m venv venv
-venv/Scripts/activate
-pip install -r .\requirements.txt
+
+# activat the envirionment
+venv/bin/activate
+
+# install dependencies
+pip install -r requirements.txt
+
+
+
+#run the code
 uvicorn main:app --port 8000 --reload
+
+```
